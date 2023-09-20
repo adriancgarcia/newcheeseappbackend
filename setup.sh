@@ -3,7 +3,7 @@
 # exit on error
 set -o errexit
 
-# Install dependencies
+# Install dependencies via pip
 pip install -r dependencies.txt
 
 # Run migrations in case any migrations hadn't been run yet
